@@ -1,0 +1,6 @@
+{
+  "name": "Happy Birthday Dayangku Zaq Azzahera",
+  "description": "A luxury, romantic, responsive birthday gift website for Dayangku Zaq Azzahera featuring interactive countdowns, memories gallery, sweet letters, and floating music player.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

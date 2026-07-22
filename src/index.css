@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+  }
+  body {
+    background-color: #fffafb;
+    color: #5d4037;
+  }
+}
+
+.dark body {
+  background-color: #12090c;
+  color: #fce4ec;
+}
+
+.font-romantic {
+  font-family: 'Great Vibes', cursive;
+}
+
+.font-serif-elegant {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-modern {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Bold Typography Theme Colors */
+.bg-theme-cream { background-color: #fffafb; }
+.text-theme-wine { color: #880e4f; }
+.text-theme-rose { color: #d81b60; }
+.text-theme-brown { color: #5d4037; }
+.border-theme-light { border-color: #fce4ec; }
+.border-theme-pink { border-color: #f8bbd0; }
+
+/* Custom romantic glow */
+.text-glow-pink {
+  text-shadow: 0 0 15px rgba(216, 27, 96, 0.4), 0 0 30px rgba(244, 143, 177, 0.2);
+}
+
+.text-glow-gold {
+  text-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+}
+
+.box-glow-pink {
+  box-shadow: 0 0 35px rgba(248, 187, 208, 0.4), 0 10px 40px rgba(136, 14, 79, 0.08);
+}
+
+/* Glassmorphism - Bold Typography Style */
+.glass-card {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid #f8bbd0;
+}
+
+.dark .glass-card {
+  background: rgba(30, 15, 21, 0.75);
+  border: 1px solid rgba(248, 187, 208, 0.15);
+}
+
+.glass-pill {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid #fce4ec;
+}
+
+.dark .glass-pill {
+  background: rgba(45, 22, 31, 0.65);
+  border: 1px solid rgba(252, 228, 236, 0.15);
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-15px) rotate(3deg); }
+}
+
+@keyframes pulse-slow {
+  0%, 100% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.08); opacity: 1; }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.animate-float {
+  animation: float 5s ease-in-out infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 3s ease-in-out infinite;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #fffafb;
+}
+.dark ::-webkit-scrollbar-track {
+  background: #12090c;
+}
+::-webkit-scrollbar-thumb {
+  background: #f48fb1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d81b60;
+}
+
