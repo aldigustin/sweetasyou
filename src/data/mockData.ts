@@ -131,10 +131,10 @@ export const TIMELINE_EVENTS: TimelineEvent[] = [
 ];
 
 export const MUSIC_DATA = {
-  title: "A Thousand Years (Romantic BGM)",
+  title: "25 Juli",
   artist: "For Azza",
   // Royalty free romantic piano sample audio
-  url: "https://ia800301.us.archive.org/11/items/CanonInD_261/CanoninD.mp3"
+  url: "https://github.com/aldigustin/FIle-Photo/raw/refs/heads/main/25%20Juli%20(1).mp3"
 };
 
 export const FOOTER_DATA = {
