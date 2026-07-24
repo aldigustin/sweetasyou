@@ -1,14 +1,14 @@
 import { GalleryItem, TimelineEvent } from '../types';
 
 export const HERO_DATA = {
-  title: "🎂 Happy Birthday Dayangku Zaq Azzahera ❤️",
+  title: "🎂 Happy Birthday Dayangku Zaq Azzaahera ❤️",
   subtitle: "Selamat ulang tahun untuk perempuan paling spesial dalam hidupku. Semoga setiap langkahmu selalu dipenuhi kebahagiaan, kesehatan, keberkahan, dan cinta serta kasih sayang yang tak pernah habis.",
-  coupleNames: "Aldi & Azza"
+  coupleNames: "Aldi & Azzaa"
 };
 
 export const COUNTDOWN_DATA = {
   card1: {
-    title: "🎉 Umur Azza",
+    title: "🎉 Umur Azzaa",
     birthDate: "2008-07-25T00:00:00",
     targetBirthday: "2026-07-25T00:00:00",
     targetAgeDisplay: "18 Tahun"
@@ -81,7 +81,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   }
 ];
 
-export const LOVE_LETTER_TEXT = `Sayangku, babyku Azza,
+export const LOVE_LETTER_TEXT = `Sayangku, babyku Azzaa,
 
 Surat ini aku tulis dari hati dan penuh kejujuran, aku berharap agar kamu kelak menjadi istri aku, semoga doa doa kita berdua dapat di kabulkan.
 dan aku harap kita sama sama belajar terus, dan saling memahami lagi satu sama lain, aku senang kamu ada disini di samping aku, I Love You ya Baby.
@@ -132,12 +132,12 @@ export const TIMELINE_EVENTS: TimelineEvent[] = [
 
 export const MUSIC_DATA = {
   title: "25 Juli",
-  artist: "For Azza",
+  artist: "For Azzaa",
   // Royalty free romantic piano sample audio
   url: "https://github.com/aldigustin/FIle-Photo/raw/refs/heads/main/25%20Juli%20(1).mp3"
 };
 
 export const FOOTER_DATA = {
   madeWithText: "Made with ❤️ by Aldi",
-  dedication: "For My Beloved, Azza"
+  dedication: "For My Beloved, Azzaa"
 };
