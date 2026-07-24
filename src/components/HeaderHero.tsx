@@ -45,7 +45,7 @@ export const HeaderHero: React.FC = () => {
             <span className="absolute w-8 h-8 bg-pink-400 rounded-full animate-ping opacity-40"></span>
             <Heart className="w-7 h-7 text-rose-500 fill-rose-500 relative z-10 animate-pulse" />
           </div>
-          <span className="font-modern font-semibold text-gray-800 dark:text-gray-200 text-base md:text-lg">Azzaa</span>
+          <span className="font-modern font-semibold text-gray-800 dark:text-gray-200 text-base md:text-lg">Azza</span>
         </div>
 
         {/* Subtitle */}

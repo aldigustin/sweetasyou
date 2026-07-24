@@ -1,14 +1,14 @@
 import { GalleryItem, TimelineEvent } from '../types';
 
 export const HERO_DATA = {
-  title: "🎂 Happy Birthday Dayangku Zaq Azzaahera ❤️",
+  title: "🎂 Happy Birthday Dayangku Zaq Azzaheera ❤️",
   subtitle: "Selamat ulang tahun untuk perempuan paling spesial dalam hidupku. Semoga setiap langkahmu selalu dipenuhi kebahagiaan, kesehatan, keberkahan, dan cinta serta kasih sayang yang tak pernah habis.",
   coupleNames: "Aldi & Azzaa"
 };
 
 export const COUNTDOWN_DATA = {
   card1: {
-    title: "🎉 Umur Azzaa",
+    title: "🎉 Umur Azza",
     birthDate: "2008-07-25T00:00:00",
     targetBirthday: "2026-07-25T00:00:00",
     targetAgeDisplay: "18 Tahun"
@@ -81,7 +81,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   }
 ];
 
-export const LOVE_LETTER_TEXT = `Sayangku, babyku Azzaa,
+export const LOVE_LETTER_TEXT = `Sayangku, babyku Azza,
 
 Surat ini aku tulis dari hati dan penuh kejujuran, aku berharap agar kamu kelak menjadi istri aku, semoga doa doa kita berdua dapat di kabulkan.
 dan aku harap kita sama sama belajar terus, dan saling memahami lagi satu sama lain, aku senang kamu ada disini di samping aku, I Love You ya Baby.
@@ -139,5 +139,5 @@ export const MUSIC_DATA = {
 
 export const FOOTER_DATA = {
   madeWithText: "Made with ❤️ by Aldi",
-  dedication: "For My Beloved, Azzaa"
+  dedication: "For My Beloved, Azza"
 };
