@@ -68,7 +68,7 @@ export const SweetMessage: React.FC = () => {
 
         {/* Decorative Rose Gold Shimmer bottom bar */}
         <div className="mt-12 pt-8 border-t border-pink-100 dark:border-pink-900/30 flex items-center justify-center gap-2 text-xs uppercase tracking-widest text-gray-400 dark:text-gray-500">
-          <span>❤️ Forever & Always • Aldi & Azzahera ❤️</span>
+          <span>❤️ Forever & Always • Aldi & Azzaheera ❤️</span>
         </div>
 
       </div>
